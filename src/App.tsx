@@ -12,7 +12,9 @@ function App() {
 
   return (
     <Center h={"100vh"} flexDir="column" gap={"20px"}>
-      <Heading size="5xl">Taka Precision Manufacturing Indonesia</Heading>
+      <Heading size="5xl" textAlign="center">
+        Taka Precision Manufacturing Indonesia
+      </Heading>
       <Box borderWidth="1px" rounded="lg" p="4" h="80vh" w="80vw">
         <JobTree projects={projects} onNewProject={() => setDialogOpen(true)} />
       </Box>
